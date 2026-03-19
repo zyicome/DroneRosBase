@@ -63,6 +63,14 @@
 >当看到如下图，说明容器启动成功，程序可接受到模拟器传出的数据
 ![pic](./docs/1.png)
 
+#### 千里AIR扩展
+`./run_basic_dev_dev_gui.sh`
+>>启动docker镜像，可以启动可视化界面，如rviz
+`catkin_make`
+`source ./devel/setup.bash`
+`rosrun [功能包] [节点]`
+`roslaunch [功能包] [launch文件]`
+
 ## ros数据交互  
 >用于获取数据的可订阅的主题  
 >+ 前视相机   
